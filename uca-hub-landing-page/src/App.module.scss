@@ -1,0 +1,9 @@
+@import "./variables";
+
+.main-content {
+    min-height: 100vh;
+    background-color: $theme-secondary-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

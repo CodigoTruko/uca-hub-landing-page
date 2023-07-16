@@ -1,0 +1,44 @@
+@import "../../variables";
+
+.main-section {
+
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    min-height: 95vh;
+
+    .ucahub-logo-figure {
+        width: 192px;
+        height: 192px;
+        border-radius: 2rem;
+        overflow: hidden;
+        
+        .ucahub-logo-img {
+            width: inherit;
+            height: inherit;
+            object-fit: cover;
+            object-position: center;
+        }
+
+    }
+
+    .download-quote {
+        font-family: $theme-primary-font;
+        color: black;
+    }
+
+    
+    .download-now-button{
+
+        padding: 1rem;
+        border: solid 1px $theme-light-color;
+        border-radius: 2rem;
+        background-color: $theme-primary-color;
+        color: white;
+        font-family: $theme-primary-font;
+    
+
+    }
+}

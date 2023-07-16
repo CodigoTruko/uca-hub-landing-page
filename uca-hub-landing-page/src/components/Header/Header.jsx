@@ -1,4 +1,4 @@
-import style from "./Header"
+import style from "./Header.module.scss"
 import HomeIcon from '@mui/icons-material/Home';
 
 const Header = () => {
@@ -6,7 +6,7 @@ const Header = () => {
         <div className={style["header-container"]}>
             <h1>UCA HUB</h1>
             <div className={style["icon-container"]}>
-                <HomeIcon/>
+                <HomeIcon fontSize="large"/>
             </div>
         </div>
     );

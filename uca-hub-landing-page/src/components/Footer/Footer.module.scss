@@ -1,0 +1,12 @@
+@import "../../variables";
+
+.footer-container{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: $theme-primary-color;
+    width: 100%;
+
+    font-family: $theme-primary-font;
+    color: white;
+}
