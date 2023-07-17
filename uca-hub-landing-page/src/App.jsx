@@ -1,24 +1,18 @@
-import style from "./App.module.scss"
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer"
-import Landing from "./components/Landing/Landing";
 import { Routes, Route } from "react-router-dom";
+import style from "./App.module.scss"
+import Landing from "./components/Landing/Landing";
+import ContactUs from "./components/Contact Us/ContactUs";
+
 function App() {
 
 
   return (
-    <>
-      <Header />
+    <main className={style["main-content"]}>
       <Routes>
-        <Route path="/home" element={
-          <main className={style["main-content"]}>
-            <Landing/>
-          </main>
-        }/>
-
+        <Route path="/" element={<Landing/>} />
+        <Route path="/contactus" element={<ContactUs />} />
       </Routes>
-      <Footer />
-    </>
+    </main>
   )
 }
 
